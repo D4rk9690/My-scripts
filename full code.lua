@@ -77,7 +77,7 @@ checkcode.TextScaled = true
 checkcode.TextSize = 14.000
 checkcode.TextWrapped = true
 checkcode.MouseButton1Down:connect(function()
-	if codehere.Text == "D4rkV2" then
+	if codehere.Text == "D4rkV3" then
 		keyframe.Visible = false
 		print("key is correct! Welcome to D4rk HUB!")
 		
