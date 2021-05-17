@@ -95,6 +95,14 @@ else if game.PlaceId == 286090429
 then 
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/YNVnnx5Q'),true))()
+					
+
+					
+------Strucid-------
+if game.PlaceId == 2377868063
+then 
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/3CBskJrg'),true))()
     
 end
 end
