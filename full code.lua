@@ -103,13 +103,10 @@ else if game.PlaceId == 2377868063
 then 
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/3CBskJrg'),true))()
-    
 end
 end
-
-		
-	else game:GetService("Players").LocalPlayer:Kick("They key you use is incorect! Get a new key at: https://d4rkexecutor.com/ (in the discord server)")
-	end
+end
+end 
 end)
 
 Shadow.Name = "Shadow"
