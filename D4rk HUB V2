@@ -265,8 +265,7 @@ loginB.TextSize = 16.000
 loginB.MouseButton1Down:connect(function()
 if (readfile("username.txt")) and (readfile("password.txt")) then 
     print("work")
-    StarterGui.Visible = false
-    else if game.PlaceId == 2916899287
+    if game.PlaceId == 2916899287
 then 
 wait(3)
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/D4rk9690/My-scripts/main/blackhawk'),true))()
@@ -274,6 +273,7 @@ wait(3)
         print("nope")
     end
     end
+    StarterGui.Visible = false
 end)
 
 Frame_6.Parent = loginframe
