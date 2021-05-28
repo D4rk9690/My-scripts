@@ -481,7 +481,7 @@ creataccb.Text = "Creat account"
 creataccb.TextColor3 = Color3.fromRGB(255, 255, 255)
 creataccb.TextSize = 16.000
 creataccb.MouseButton1Down:connect(function()
-    if Discordkey.Text == "D4rk-72424-64921" then
+    if Discordkey.Text == "D4rk-85896-67321" then
         		wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Account created!"; -- the title (ofc)
